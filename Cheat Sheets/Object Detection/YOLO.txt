@@ -1,0 +1,16 @@
+Object Detection has an output of the form
+[Pc    ==========> Probablility that there is a class present
+ x     ==========> x co-ordinate of the Bounding box
+ y     ==========> y co-ordinate of the Bounding box
+ w     ==========> width of the Bounding box
+ h     ==========> height of the Bounding box
+ C1    ==========> Class 1 of the multi-class output
+ C2    ==========> Class 2 of the multi-class output
+ C3]   ==========> Class 3 of the multi-class output
+
+
+YOLO 
+For the YOLO architecture, entire imageis split into grid cells, for each cell, we'll check if it contains any object, and have 
+a seperate output for that cell.
+
+The correctness of the Bounding boxes is determined by Intersecion Over Union(correct if IOU>=.5)
