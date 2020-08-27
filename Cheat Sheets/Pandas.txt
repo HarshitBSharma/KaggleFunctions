@@ -1,0 +1,1 @@
+To convert categorical data to numerical data, use pd.dummies(column, drop_first=True)

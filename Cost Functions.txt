@@ -1,0 +1,11 @@
+Types of problems
+1. Regression Problems
+2. Binary Classification Problems
+3. Multi-class Classification problems
+
+1. Regression problems
+   Continuous output values 
+
+1.1 Mean Squared Error loss
+    
+1.2 Mean Squared Logarithmic Error loss

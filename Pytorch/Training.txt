@@ -1,0 +1,3 @@
+Reducing Learning rate according to the number of epochs
+
+https://pytorch.org/docs/stable/optim.html#torch.optim.lr_scheduler.StepLR
